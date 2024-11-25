@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realmstonesmod:block/mithril_stone_slab"
+    },
+    "type=double": {
+      "model": "realmstonesmod:block/mithril_stone"
+    },
+    "type=top": {
+      "model": "realmstonesmod:block/mithril_stone_slab_top"
+    }
+  }
+}

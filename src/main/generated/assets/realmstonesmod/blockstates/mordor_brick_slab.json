@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realmstonesmod:block/mordor_brick_slab"
+    },
+    "type=double": {
+      "model": "realmstonesmod:block/mordor_brick"
+    },
+    "type=top": {
+      "model": "realmstonesmod:block/mordor_brick_slab_top"
+    }
+  }
+}

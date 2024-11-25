@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realmstonesmod:block/lunar_stone_slab"
+    },
+    "type=double": {
+      "model": "realmstonesmod:block/lunar_stone"
+    },
+    "type=top": {
+      "model": "realmstonesmod:block/lunar_stone_slab_top"
+    }
+  }
+}

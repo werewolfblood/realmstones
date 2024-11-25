@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "realmstonesmod:block/lunar_stone",
+    "side": "realmstonesmod:block/lunar_stone",
+    "top": "realmstonesmod:block/lunar_stone"
+  }
+}

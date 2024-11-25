@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "realmstonesmod:block/mithril_stone",
+    "side": "realmstonesmod:block/mithril_stone",
+    "top": "realmstonesmod:block/mithril_stone"
+  }
+}

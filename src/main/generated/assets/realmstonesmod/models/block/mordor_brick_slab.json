@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "realmstonesmod:block/mordor_brick",
+    "side": "realmstonesmod:block/mordor_brick",
+    "top": "realmstonesmod:block/mordor_brick"
+  }
+}

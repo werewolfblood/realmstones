@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realmstonesmod:block/angband_brick_slab"
+    },
+    "type=double": {
+      "model": "realmstonesmod:block/angband_brick"
+    },
+    "type=top": {
+      "model": "realmstonesmod:block/angband_brick_slab_top"
+    }
+  }
+}

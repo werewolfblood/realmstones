@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realmstonesmod:block/amethyst_slab"
+    },
+    "type=double": {
+      "model": "realmstonesmod:block/amethyst"
+    },
+    "type=top": {
+      "model": "realmstonesmod:block/amethyst_slab_top"
+    }
+  }
+}

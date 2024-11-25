@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "realmstonesmod:block/angband_stone",
+    "side": "realmstonesmod:block/angband_stone",
+    "top": "realmstonesmod:block/angband_stone"
+  }
+}
