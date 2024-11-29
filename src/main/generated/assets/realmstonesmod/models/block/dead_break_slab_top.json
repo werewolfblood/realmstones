@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "realmstonesmod:block/dead_break",
+    "side": "realmstonesmod:block/dead_break",
+    "top": "realmstonesmod:block/dead_break"
+  }
+}

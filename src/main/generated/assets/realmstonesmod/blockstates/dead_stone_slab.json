@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realmstonesmod:block/dead_stone_slab"
+    },
+    "type=double": {
+      "model": "realmstonesmod:block/dead_stone"
+    },
+    "type=top": {
+      "model": "realmstonesmod:block/dead_stone_slab_top"
+    }
+  }
+}

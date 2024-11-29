@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realmstonesmod:block/dirt_moss_slab"
+    },
+    "type=double": {
+      "model": "realmstonesmod:block/dirt_moss"
+    },
+    "type=top": {
+      "model": "realmstonesmod:block/dirt_moss_slab_top"
+    }
+  }
+}

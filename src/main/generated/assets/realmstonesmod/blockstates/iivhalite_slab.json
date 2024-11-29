@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realmstonesmod:block/iivhalite_slab"
+    },
+    "type=double": {
+      "model": "realmstonesmod:block/iivhalite"
+    },
+    "type=top": {
+      "model": "realmstonesmod:block/iivhalite_slab_top"
+    }
+  }
+}

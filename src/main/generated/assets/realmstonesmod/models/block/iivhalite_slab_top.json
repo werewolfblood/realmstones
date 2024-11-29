@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "realmstonesmod:block/iivhalite",
+    "side": "realmstonesmod:block/iivhalite",
+    "top": "realmstonesmod:block/iivhalite"
+  }
+}

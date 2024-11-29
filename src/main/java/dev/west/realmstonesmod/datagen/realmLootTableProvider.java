@@ -31,7 +31,7 @@ public class realmLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(InitBlocks.DWARF_LIMECOBBLE);
         addDrop(InitBlocks.DWARFIRON_STONE);
         addDrop(InitBlocks.DWARF_LIMESTONE);
-        addDrop(InitBlocks.TITAHIRE_STONE);
+        addDrop(InitBlocks.TuTAHIRE_STONE);
         addDrop(InitBlocks.LUNAR_STONE);
        addDrop(InitBlocks.ARCANE);
        addDrop(InitBlocks.DROW_STONE);
@@ -57,6 +57,47 @@ public class realmLootTableProvider extends FabricBlockLootTableProvider {
        addDrop(InitBlocks.LUNAR_STONE_SLAB);
        addDrop(InitBlocks.LUNAR_STONE_FENCE);
        addDrop(InitBlocks.ANGBAND_BRICK_FENCE);
+       addDrop(InitBlocks.DWARF_STEIOLITE);
+       addDrop(InitBlocks.DWARF_STEIOLITE_BRICK);
+       addDrop(InitBlocks.DWARF_BEIGE_BRICK);
+       addDrop(InitBlocks.DWARF_BEIGE);
+       addDrop(InitBlocks.MEN_KUKHOG);
+       addDrop(InitBlocks.MEN_COLUAZ);
+       addDrop(InitBlocks.MAROON);
+       addDrop(InitBlocks.CYAN);
+       addDrop(InitBlocks.GRAYLIME);
+       addDrop(InitBlocks.BIXBITE);
+       addDrop(InitBlocks.AZURITE);
+       addDrop(InitBlocks.BARITE);
+       addDrop(InitBlocks.JADE);
+       addDrop(InitBlocks.SARD);
+       addDrop(InitBlocks.ROCK_CRYSTAL);
+       addDrop(InitBlocks.LOLITE);
+       addDrop(InitBlocks.GOSHRNITE);
+       addDrop(InitBlocks.KYANNITE);
+       addDrop(InitBlocks.ELF_DIRT);
+       addDrop(InitBlocks.ARCHROITE);
+       addDrop(InitBlocks.ZIRCON);
+       addDrop(InitBlocks.WILLEMITE);
+       addDrop(InitBlocks.CARMINE);
+       addDrop(InitBlocks.LECHULI);
+       addDrop(InitBlocks.MOTALD);
+       addDrop(InitBlocks.AERKY);
+       addDrop(InitBlocks.MORDOR_WEASTE);
+       addDrop(InitBlocks.MORDOR_PIT_STONE);
+       addDrop(InitBlocks.DEAD_BREAK);
+       addDrop(InitBlocks.DEAD_STONE);
+       addDrop(InitBlocks.DEAD_BREAK_SLAB);
+       addDrop(InitBlocks.DEAD_STONE_SLAB);
+       addDrop(InitBlocks.DEATH_STONE);
+       addDrop(InitBlocks.GRAVEL_MOSS);
+       addDrop(InitBlocks.DIRT_MOSS);
+       addDrop(InitBlocks.IIVHALITE);
+       addDrop(InitBlocks.IIVHALITE_SLAB);
+       addDrop(InitBlocks.DIRT_MOSS_SLAB);
+        addDrop(InitBlocks.GATTASE);
+        addDrop(InitBlocks.ARCHROITE);
+        addDrop(InitBlocks.TAUPE);
 
     }
 
