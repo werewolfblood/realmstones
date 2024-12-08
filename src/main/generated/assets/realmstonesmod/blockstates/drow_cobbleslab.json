@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "realmstonesmod:block/drow_cobbleslab"
+      "model": "realmstonesmod:block/drow_cobble_slab"
     },
     "type=double": {
       "model": "realmstonesmod:block/drow_cobble"
     },
     "type=top": {
-      "model": "realmstonesmod:block/drow_cobbleslab_top"
+      "model": "realmstonesmod:block/drow_cobble_slab_top"
     }
   }
 }

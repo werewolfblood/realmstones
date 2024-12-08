@@ -1,22 +1,22 @@
 package dev.west.realmstonesmod.block;
 
+
 import dev.west.realmstonesmod.RealmstonesMod;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.FenceBlock;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.block.*;
+import net.minecraft.block.enums.NoteBlockInstrument;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+
+
 
 public class InitBlocks {
 
     public static final Block MITHRIL_STONE = registerBlock("mithril_stone",
-            new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool().luminance(state -> 8)));
+            new MITHRILSTONE(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool().luminance(state -> 8)));
     public static final Block CRYSTAL_STONE = registerBlock("crystal_stone",
             new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
     public static final Block DWARF_COBBLE = registerBlock("dwarf_cobble",
@@ -119,6 +119,8 @@ public class InitBlocks {
             new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
     public static final Block ELF_DIRT = registerBlock("elf_dirt",
             new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block ELF_DIRT_SLAB = registerBlock("elf_dirt_slab",
+            new ElfGreenSlab(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
     public static final Block ARCHROITE = registerBlock("archroite",
             new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
     public static final Block ZIRCON = registerBlock("zircon",
@@ -163,13 +165,123 @@ public class InitBlocks {
             new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
     public static final Block TAUPE = registerBlock("taupe",
             new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
-
-
-
-
-
-
-
+    public static final Block SILVER_STONE = registerBlock("silver_stone",
+            new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block PEAL_STONE = registerBlock("peal_stone",
+            new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block NIGHT_STONE = registerBlock("night_stone",
+            new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block CRYSTALICE_STONE = registerBlock("crystalice_stone",
+            new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block CRYSTALICE_STONE_SLAB = registerBlock("crystalice_stone_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block CRYSTALICE_STONE_FENCE = registerBlock("crystalice_stone_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block NIGHT_STONE_SLAB = registerBlock("night_stone_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block SILVER_STONE_SLAB = registerBlock("silver_stone_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block SILVER_STONE_FENCE = registerBlock("silver_stone_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block GOLDSTONE = registerBlock("goldstone",
+            new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block CRYSTAL_BLUE = registerBlock("crystal_blue",
+            new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool().luminance(state -> 8)));
+    public static final Block CRYSTAL_GOLD = registerBlock("crystal_gold",
+            new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool().luminance(state -> 8)));
+    public static final Block CRYSTAL_SILVER = registerBlock("crystal_silver",
+            new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool().luminance(state -> 8)));
+    public static final Block CRYSTAL_ORE = registerBlock("crystal_ore",
+            new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool().luminance(state -> 8)));
+    public static final Block MORDOR_ORE = registerBlock("mordor_ore",
+            new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block LILAC_STONE = registerBlock("lilac_stone",
+            new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block LILAC_STONE_SLAB = registerBlock("lilac_stone_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block LILAC_STONE_FENCE = registerBlock("lilac_stone_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block MOSS_PEAL = registerBlock("moss_peal",
+            new Block(AbstractBlock.Settings.create().strength(1.5F, 6.0F).requiresTool()));
+    public static final Block CRYSTAL_GLOW = registerBlock("crystal_glow",
+            new RealmGlowStone(AbstractBlock.Settings.create().strength(3.0F).requiresTool().luminance(state -> 8)));
+    public static final Block GUNBAND_STONE = registerBlock("gunband_stone",
+            new MITHRILSTONE(AbstractBlock.Settings.create().strength(3.0F).requiresTool()));
+    public static final Block GUNBAND_STONE_SLAB = registerBlock("gunband_stone_slab",
+            new DwarfSlab(AbstractBlock.Settings.create().strength(3.0F).requiresTool()));
+    public static final Block MORIA_STONE = registerBlock("moria_stone",
+            new MITHRILSTONE(AbstractBlock.Settings.create().strength(3.0F).requiresTool()));
+    public static final Block TAN_DIRT = registerBlock("tan_dirt",
+            new RealmGrassBlock(AbstractBlock.Settings.create().mapColor(MapColor.BROWN).ticksRandomly().strength(0.6F).sounds(BlockSoundGroup.GRASS)));
+    public static final Block TAN_DIRT_SLAB = registerBlock("tan_dirt_slab",
+            new DwarfSlab(AbstractBlock.Settings.create().mapColor(MapColor.BROWN).ticksRandomly().strength(0.6F).sounds(BlockSoundGroup.GRASS)));
+    public static final Block DWARF_DIRT = registerBlock("dwarf_dirt",
+            new RealmGrassBlock(AbstractBlock.Settings.create().mapColor(MapColor.BROWN).ticksRandomly().strength(0.6F).sounds(BlockSoundGroup.GRASS)));
+    public static final Block SALIC_DIRT = registerBlock("salic_dirt",
+            new RealmGrassBlock(AbstractBlock.Settings.create().mapColor(MapColor.BROWN).ticksRandomly().strength(0.6F).sounds(BlockSoundGroup.GRASS)));
+    public static final Block DWARF_DIRT_SLAB = registerBlock("dwarf_dirt_slab",
+            new DwarfSlab(AbstractBlock.Settings.create().mapColor(MapColor.BROWN).ticksRandomly().strength(0.6F).sounds(BlockSoundGroup.GRASS)));
+    public static final Block MORIA_STONE_SLAB = registerBlock("moria_stone_slab",
+            new DwarfSlab(AbstractBlock.Settings.create().strength(3.0F).requiresTool()));
+    public static final Block CRYSTAL_DIRT = registerBlock("crystal_dirt",
+            new RealmGrassBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE).ticksRandomly().strength(0.6F).sounds(BlockSoundGroup.GRASS).luminance(state -> 8)));
+    public static final Block CRYSTAL_DIRT_SLAB = registerBlock("crystal_dirt_slab",
+            new DwarfSlab(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE).ticksRandomly().strength(0.6F).sounds(BlockSoundGroup.GRASS).luminance(state -> 8)));
+    public static final Block DROW_COBBLE_SLAB = registerBlock("drow_cobble_slab",
+            new DwarfSlab(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK).strength(1.5F, 6.0F).requiresTool()));
+    public static final Block IRONDWARF_STONE = registerBlock("irondwarf_stone",
+            new MITHRILSTONE(AbstractBlock.Settings.copy(Blocks.BEDROCK).strength(1.5F, 6.0F).requiresTool()));
+    public static final Block IRONDWARF_STONE_SLAB = registerBlock("irondwarf_stone_slab",
+            new MITHRILSTONESLAB(AbstractBlock.Settings.copy(Blocks.BEDROCK).strength(1.5F, 6.0F).requiresTool()));
+    public static final Block ORC_BLOOD_STONE = registerBlock("orc_blood_stone",
+            new MITHRILSTONE(AbstractBlock.Settings.copy(Blocks.BEDROCK).strength(1.5F, 6.0F).requiresTool()));
+    public static final Block ORC_STONE = registerBlock("orc_stone",
+            new MITHRILSTONE(AbstractBlock.Settings.copy(Blocks.BEDROCK).strength(1.5F, 6.0F).requiresTool()));
+    public static final Block EVIL_BRICK = registerBlock("evil_brick",
+            new MITHRILSTONE(AbstractBlock.Settings.copy(Blocks.BEDROCK).strength(1.5F, 6.0F).requiresTool()));
+    public static final Block ORC_BRICK = registerBlock("orc_brick",
+            new MITHRILSTONE(AbstractBlock.Settings.copy(Blocks.BEDROCK).strength(1.5F, 6.0F).requiresTool()));
+    public static final Block DROW_LANTERN = registerBlock("drow_lantern",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.PALE_PURPLE)
+                            .instrument(NoteBlockInstrument.BASS)
+                            .strength(0.3F)
+                            .sounds(BlockSoundGroup.GLASS)
+                            .luminance(state -> 15)
+                            .solidBlock(Blocks::never)
+            )
+    );
+    public static final Block ELF_LANTERN = registerBlock("elf_lantern",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.PALE_GREEN)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(0.3F)
+                    .sounds(BlockSoundGroup.GLASS)
+                    .luminance(state -> 15)
+                    .solidBlock(Blocks::never)
+            )
+    );
+    public static final Block CRYSTAL_LANTERN = registerBlock("crystal_lantern",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.LIGHT_BLUE)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(0.3F)
+                    .sounds(BlockSoundGroup.GLASS)
+                    .luminance(state -> 15)
+                    .solidBlock(Blocks::never)
+            )
+    );
+    public static final Block ORC_LANTERN = registerBlock("orc_lantern",
+            new RealmOrcGlowStone(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.PALE_PURPLE)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(0.3F)
+                    .sounds(BlockSoundGroup.GLASS)
+                    .luminance(state -> 8)
+                    .solidBlock(Blocks::never)
+            )
+    );
+        
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -260,6 +372,50 @@ public class InitBlocks {
             entries.add(InitBlocks.GATTASE);
             entries.add(InitBlocks.ANORNIC);
             entries.add(InitBlocks.TAUPE);
+            entries.add(InitBlocks.SILVER_STONE);
+            entries.add(InitBlocks.PEAL_STONE);
+            entries.add(InitBlocks.NIGHT_STONE);
+            entries.add(InitBlocks.CRYSTALICE_STONE);
+            entries.add(InitBlocks.CRYSTALICE_STONE_SLAB);
+            entries.add(InitBlocks.CRYSTALICE_STONE_FENCE);
+            entries.add(InitBlocks.SILVER_STONE_SLAB);
+            entries.add(InitBlocks.SILVER_STONE_FENCE);
+            entries.add(InitBlocks.GOLDSTONE);
+            entries.add(InitBlocks.CRYSTAL_BLUE);
+            entries.add(InitBlocks.CRYSTAL_GOLD);
+            entries.add(InitBlocks.CRYSTAL_SILVER);
+            entries.add(InitBlocks.CRYSTAL_ORE);
+            entries.add(InitBlocks.MORDOR_ORE);
+            entries.add(InitBlocks.LILAC_STONE);
+            entries.add(InitBlocks.LILAC_STONE_SLAB);
+            entries.add(InitBlocks.MOSS_PEAL);
+            entries.add(InitBlocks.DROW_LANTERN);
+            entries.add(InitBlocks.CRYSTAL_LANTERN);
+            entries.add(InitBlocks.CRYSTAL_GLOW);
+            entries.add(InitBlocks.GUNBAND_STONE);
+            entries.add(InitBlocks.GUNBAND_STONE_SLAB);
+            entries.add(InitBlocks.MORIA_STONE);
+            entries.add(InitBlocks.MORIA_STONE_SLAB);
+            entries.add(InitBlocks.DWARF_DIRT);
+            entries.add(InitBlocks.TAN_DIRT);
+            entries.add(InitBlocks.TAN_DIRT_SLAB);
+            entries.add(InitBlocks.DWARF_DIRT_SLAB);
+            entries.add(InitBlocks.SALIC_DIRT);
+            entries.add(InitBlocks.ELF_LANTERN);
+            entries.add(InitBlocks.CRYSTAL_DIRT);
+            entries.add(InitBlocks.CRYSTAL_DIRT_SLAB);
+            entries.add(InitBlocks.ELF_DIRT_SLAB);
+            entries.add(InitBlocks.DROW_COBBLE_SLAB);
+            entries.add(InitBlocks.IRONDWARF_STONE);
+            entries.add(InitBlocks.IRONDWARF_STONE_SLAB);
+            entries.add(InitBlocks.ORC_BLOOD_STONE);
+            entries.add(InitBlocks.ORC_STONE);
+           entries.add(InitBlocks.ORC_LANTERN);
+           entries.add(InitBlocks.EVIL_BRICK);
+           entries.add(InitBlocks.ORC_BRICK);
+
+
+
 
 
 

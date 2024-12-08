@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "realmstonesmod:block/drow_cobble",
-    "side": "realmstonesmod:block/drow_cobble",
-    "top": "realmstonesmod:block/drow_cobble"
-  }
-}

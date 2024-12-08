@@ -98,6 +98,51 @@ public class realmLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(InitBlocks.GATTASE);
         addDrop(InitBlocks.ARCHROITE);
         addDrop(InitBlocks.TAUPE);
+        addDrop(InitBlocks.SILVER_STONE);
+        addDrop(InitBlocks.PEAL_STONE);
+        addDrop(InitBlocks.NIGHT_STONE);
+        addDrop(InitBlocks.CRYSTALICE_STONE);
+        addDrop(InitBlocks.CRYSTALICE_STONE_SLAB);
+        addDrop(InitBlocks.CRYSTALICE_STONE_FENCE);
+        addDrop(InitBlocks.NIGHT_STONE_SLAB);
+        addDrop(InitBlocks.SILVER_STONE_SLAB);
+        addDrop(InitBlocks.SILVER_STONE_FENCE);
+        addDrop(InitBlocks.GOLDSTONE);
+        addDrop(InitBlocks.CRYSTAL_BLUE);
+        addDrop(InitBlocks.CRYSTAL_GOLD);
+        addDrop(InitBlocks.CRYSTAL_SILVER);
+        addDrop(InitBlocks.CRYSTAL_ORE);
+        addDrop(InitBlocks.MORDOR_ORE);
+        addDrop(InitBlocks.LILAC_STONE);
+        addDrop(InitBlocks.LILAC_STONE_SLAB);
+        addDrop(InitBlocks.LILAC_STONE_FENCE);
+        addDrop(InitBlocks.MOSS_PEAL);
+        addDrop(InitBlocks.GUNBAND_STONE);
+        addDrop(InitBlocks.GUNBAND_STONE_SLAB);
+        addDrop(InitBlocks.MORIA_STONE);
+        addDrop(InitBlocks.MORIA_STONE_SLAB);
+        addDrop(InitBlocks.DWARF_DIRT);
+        addDrop(InitBlocks.TAN_DIRT);
+        addDrop(InitBlocks.DWARF_DIRT_SLAB);
+        addDrop(InitBlocks.TAN_DIRT_SLAB);
+        addDrop(InitBlocks.SALIC_DIRT);
+        addDrop(InitBlocks.CRYSTAL_DIRT);
+        addDrop(InitBlocks.CRYSTAL_DIRT_SLAB);
+        addDrop(InitBlocks.ELF_DIRT_SLAB);
+        addDrop(InitBlocks.DROW_COBBLE_SLAB);
+        addDrop(InitBlocks.IRONDWARF_STONE);
+        addDrop(InitBlocks.IRONDWARF_STONE_SLAB);
+        addDrop(InitBlocks.ORC_BLOOD_STONE);
+        addDrop(InitBlocks.ORC_STONE);
+        addDrop(InitBlocks.ORC_LANTERN);
+        addDrop(InitBlocks.EVIL_BRICK);
+        addDrop(InitBlocks.ORC_BRICK);
+
+
+
+
+
+
 
     }
 

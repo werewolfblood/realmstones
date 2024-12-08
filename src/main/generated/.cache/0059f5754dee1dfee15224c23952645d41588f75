@@ -1,5 +1,9 @@
-// 1.21.1	2024-11-28T22:28:45.8107736	Realmstones Mod/Tags for minecraft:block
-89950df2a3341109a861710d2db1a781de40a83f data\minecraft\tags\block\mineable\pickaxe.json
-aa3fe77b1a7f7cee1bd9e890274e758a45238bd1 data\minecraft\tags\block\fences.json
-758695708b800876ce67682deb67b04d8af61a87 data\minecraft\tags\block\slabs.json
-a3dfe099db0ee8fb324af9e578e4c9cbcd402a97 data\minecraft\tags\block\mineable\shovel.json
+// 1.21.1	2024-12-07T19:20:37.1599204	Realmstones Mod/Tags for minecraft:block
+c5a2d2e580fb51e6d9ab36a26dd578823c07f4b2 data\minecraft\tags\block\mineable\pickaxe.json
+d2e48f510e84ee63552462c3b4a81973e7e5d0d6 data\minecraft\tags\block\fences.json
+850b9825c17dacae17762b30f0ad8fe63240d24c data\minecraft\tags\block\mineable\shovel.json
+7ca856641db3b6d3f54293bd660a93367b77512e data\minecraft\tags\block\slabs.json
+e74f8a8ff5674a5dcc70ab9534dc3a1ee7d73ce8 data\minecraft\tags\block\needs_diamond_tool.json
+652439917f030180a2023497ff8eff59f89746dc data\minecraft\tags\block\gold_ores.json
+1dd98f8d2e90f114fba128b60f945bb101ea9762 data\minecraft\tags\block\iron_ores.json
+b0a47aaf0b8a5098742c3e94ba887461c38077ef data\minecraft\tags\block\needs_iron_tool.json

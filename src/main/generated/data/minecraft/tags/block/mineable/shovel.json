@@ -1,11 +1,18 @@
 {
   "values": [
+    "realmstonesmod:elf_dirt_slab",
+    "realmstonesmod:crystal_dirt",
     "realmstonesmod:anornic",
     "realmstonesmod:gattase",
     "realmstonesmod:dirt_moss_slab",
     "realmstonesmod:iivhalite_slab",
     "realmstonesmod:iivhalite",
     "realmstonesmod:dirt_moss",
+    "realmstonesmod:dwarf_dirt",
+    "realmstonesmod:tan_dirt",
+    "realmstonesmod:dwarf_dirt_slab",
+    "realmstonesmod:salic_dirt",
+    "realmstonesmod:crystal_dirt_slab",
     "realmstonesmod:gravel_moss"
   ]
 }

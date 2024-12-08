@@ -1,6 +1,8 @@
 package dev.west.realmstonesmod;
 
 import dev.west.realmstonesmod.block.InitBlocks;
+
+
 import dev.west.realmstonesmod.item.InitItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,6 +22,12 @@ public class RealmstonesMod implements ModInitializer {
 		InitBlocks.registerModBlocks();
 		InitItems.registerModItems();
 
+
+
+
+
 		LOGGER.info("Hello Fabric world!");
+
+
 	}
 }

@@ -1,5 +1,10 @@
 {
   "values": [
+    "realmstonesmod:drow_cobble_slab",
+    "realmstonesmod:elf_dirt_slab",
+    "realmstonesmod:gunband_stone_slab",
+    "realmstonesmod:silver_stone_slab",
+    "realmstonesmod:crystalice_stone_slab",
     "realmstonesmod:dirt_moss_slab",
     "realmstonesmod:iivhalite_slab",
     "realmstonesmod:dead_stone_slab",
@@ -11,6 +16,13 @@
     "realmstonesmod:angband_brick_slab",
     "realmstonesmod:mordor_brick_slab",
     "realmstonesmod:mithril_stone_slab",
+    "realmstonesmod:night_stone_slab",
+    "realmstonesmod:moria_stone_slab",
+    "realmstonesmod:tan_dirt_slab",
+    "realmstonesmod:dwarf_dirt_slab",
+    "realmstonesmod:salic_dirt",
+    "realmstonesmod:crystal_dirt_slab",
+    "realmstonesmod:irondwarf_stone_slab",
     "realmstonesmod:drow_cobbleslab"
   ]
 }
